@@ -1,10 +1,10 @@
-## Accessible carousel [unfinished]
+## Accessible carousel [finished]
 
 ### Accessible attribute
 - [x] aria-live
 - [x] aria-label
 - [x] aria-roleDescription
-- [ ] aria-controls
+- [x] aria-controls
 
 
 #### Useful links
