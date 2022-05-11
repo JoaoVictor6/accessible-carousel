@@ -6,9 +6,9 @@ const carouselImages = [
 const carouselContainer = document.querySelector('.carousel')
 let carouselWasPaused = false
 
-const pass = () => currentPosition.currentItem = ++currentPosition.currentItem
-const backwards = () => currentPosition.currentItem = --currentPosition.currentItem
-const pause = () => carouselWasPaused = !carouselWasPaused
+export const pass = () => currentPosition.currentItem = ++currentPosition.currentItem
+export const backwards = () => currentPosition.currentItem = --currentPosition.currentItem
+export const pause = () => carouselWasPaused = !carouselWasPaused
 function renderCarousel(currentItem){
   carouselContainer.innerHTML = ''
   

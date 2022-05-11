@@ -6,10 +6,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Accessible carousel</title>
   <link rel="stylesheet" href="style.css">
-  <script defer src="app.js"></script>
+  <script defer type="module" src="app.js"></script>
+  <script defer type="module" src="carouselControl.js"></script>
 </head>
 <body>
-  <section class="carousel" aria-roledescription="carousel" aria-label="abstract images">
+  <section class="carousel-controls">
+    <button aria-controls="carouselWrapper" aria-label="Previous slide" class="carousel-controls__button carousel-controls__button--back">Back</button>
+    <button aria-controls="carouselWrapper" aria-label="Auto rotation pause" class="carousel-controls__button carousel-controls__button--pause">Pause</button>
+    <button aria-controls="carouselWrapper" aria-label="Next slide" class="carousel-controls__button carousel-controls__button--next">Next</button>
   </section>
+  <section class="carousel" id="carouselWrapper" aria-roledescription="carousel" aria-label="abstract images">
+  </section>
+  <button class="contrast-button">
+    Contrast
+  </button>
 </body>
 </html>
