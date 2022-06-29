@@ -8,4 +8,4 @@
 
 
 #### Useful links
-(Auto-Rotating Image Carousel Example with Buttons for Slide Control)[https://www.w3.org/TR/wai-aria-practices/examples/carousel/carousel-1-prev-next.html?moreaccessible=false&paused=false&norotate=false] 
+[Auto-Rotating Image Carousel Example with Buttons for Slide Control](https://www.w3.org/TR/wai-aria-practices/examples/carousel/carousel-1-prev-next.html?moreaccessible=false&paused=false&norotate=false)
